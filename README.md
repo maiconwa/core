@@ -1,3 +1,3 @@
 # core
 
-Randon project.
+Book shelf API with Django REST Framework.
