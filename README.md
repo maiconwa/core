@@ -1,6 +1,6 @@
 # core
 
-Book shelf API with Django REST Framework.
+API with Django REST Framework.
 <p>
 </p>
 <br>
