@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from shelf.views import LivrosViewSet
+from games.views import JogosViewSet
 
 router = routers.DefaultRouter()
 router.register(r'livros', LivrosViewSet)
+router.register(r'jogos', JogosViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
