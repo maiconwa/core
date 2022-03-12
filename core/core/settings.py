@@ -134,6 +134,7 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_RENDERER_CLASSES': [
         'rest_framework.renderers.JSONRenderer',
+        # commenting the BrowsableAPIRenderer will allow only Json to be shown
         'rest_framework.renderers.BrowsableAPIRenderer',
     ]
 }
