@@ -5,6 +5,8 @@ Book shelf API with Django REST Framework.
 API Root:
 <br>
 <img src=https://github.com/maiconwa/core/blob/main/core/images/Root.png>
+<p>
+</p>
 <br>
 API Livros:
 <br>
