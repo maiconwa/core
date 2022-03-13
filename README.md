@@ -6,9 +6,9 @@ In order to use this software some steps are required:
 <br>
 1 - Create a virtual environment using python3 -m venv venv.
 <br>
-2 - Activate the virtual environment in /core/venv/bin with the command source activate.
+2 - Activate the virtual environment in /core/venv/bin. Command: source activate.
 <br>
-3 - Install pip requirements.txt in /core/core. Command pip install -r requirements.txt.
+3 - Install pip requirements.txt in /core/core. Command: pip install -r requirements.txt.
 <br>
 4 - Run commands: python3 manage.py makemigrations followed by python3 manage.py migrate to create the sqlite database.
 <br>
