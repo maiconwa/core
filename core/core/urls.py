@@ -18,10 +18,12 @@ from django.urls import path, include
 from rest_framework import routers
 from shelf.views import LivrosViewSet
 from games.views import JogosViewSet
+from movies.views import FilmesViewSet
 
 router = routers.DefaultRouter()
 router.register(r'livros', LivrosViewSet)
 router.register(r'jogos', JogosViewSet)
+router.register(r'filmes', FilmesViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),

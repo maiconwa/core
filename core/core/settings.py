@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'shelf',
     'games',
+    'movies',
 ]
 
 MIDDLEWARE = [
