@@ -28,15 +28,15 @@ Advise: Some of the following commands may differ if you are using a diferent sy
 <br>
 API Root:
 <br>
-<img src=https://github.com/maiconwa/core/blob/main/core/images/Root1.png>
+<img src=https://github.com/maiconwa/core/blob/main/images/Root1.png>
 <p>
 </p>
 <br>
 API Livros:
 <br>
-<img src=https://github.com/maiconwa/core/blob/main/core/images/Livros.png>
+<img src=https://github.com/maiconwa/core/blob/main/images/Livros.png>
 <br>
 API Jogos:
 <br>
-<img src=https://github.com/maiconwa/core/blob/main/core/images/Jogos.png>
+<img src=https://github.com/maiconwa/core/blob/main/images/Jogos.png>
 <br>
