@@ -10,13 +10,17 @@ In order to use this software some steps are required:
 <br>
 3 - Install pip requirements.txt at /core/core. Command: pip install -r requirements.txt.
 <br>
-4 - Run commands: python3 manage.py makemigrations followed by python3 manage.py migrate to create the sqlite database.
+4 - Generate a secret_key for django. Command: python3 -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
 <br>
-5 - Create a superuser for django admin. Command: python3 manage.py createsuperuser
+5 - Create a file named ticket.py inside core project. Add a variable named ticket and add the secret key as the following: ticket = 'your secret_key must be placed here'.
 <br>
-6 - Run the application. Command: python3 manage.py runserver
+6 - Run commands: python3 manage.py makemigrations followed by python3 manage.py migrate to create the sqlite database.
 <br>
-7 - Using the web browser, type http://127.0.0.1:8000/ or http://localhost:8000/ to see API Root.
+7 - Create a superuser for django admin. Command: python3 manage.py createsuperuser
+<br>
+8 - Run the application. Command: python3 manage.py runserver
+<br>
+9 - Using the web browser, type http://127.0.0.1:8000/ or http://localhost:8000/ to see API Root.
 <p>
 </p>
 <br>
