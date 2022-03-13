@@ -4,6 +4,8 @@ API with Django REST Framework.
 <br>
 In order to use this software some steps are required:
 <br>
+Advise: Some of the following commands may differ if you are using a diferent system, the commands ahead were used in a linux ubuntu machine.
+<br>
 1 - Create a virtual environment using python3 -m venv venv.
 <br>
 2 - Activate the virtual environment at /core/venv/bin. Command: source activate.
