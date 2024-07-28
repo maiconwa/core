@@ -71,7 +71,7 @@ API Jogos:
 <br>
 <img src=https://github.com/maiconwa/core/blob/main/images/Jogos.png>
 <br>
-API Jogos:
+API Filmes:
 <br>
 <img src=https://github.com/maiconwa/core/blob/main/images/Filmes.png>
 <br>
