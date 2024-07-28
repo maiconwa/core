@@ -26,8 +26,6 @@ Advise: Some of the following commands may differ if you are using a diferent sy
 <p>
 </p>
 <br>
-API Root:
-<br>
 Login:
 <img src=https://github.com/maiconwa/core/blob/main/images/Login.png>
 <p>
