@@ -28,6 +28,13 @@ Advise: Some of the following commands may differ if you are using a diferent sy
 <br>
 API Root:
 <br>
+Login:
+<img src=https://github.com/maiconwa/core/blob/main/images/Login.png>
+<p>
+</p>
+<br>
+API root:
+<br>
 <img src=https://github.com/maiconwa/core/blob/main/images/Root1.png>
 <p>
 </p>
