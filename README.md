@@ -1,4 +1,4 @@
-# core
+# Core
 
 API with Django REST Framework.
 
@@ -38,6 +38,8 @@ Advise: Some of the following commands may differ if you are using a diferent sy
 
     python3 manage.py makemigrations
     
+<br>
+
     python3 manage.py migrate
 
 <br>
