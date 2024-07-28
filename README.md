@@ -6,21 +6,47 @@ In order to use this software some steps are required:
 <br>
 Advise: Some of the following commands may differ if you are using a diferent system, the commands ahead were used in a linux ubuntu machine.
 <br>
-1 - Create a virtual environment using python3 -m venv venv.
+1 - Create a virtual environment using:
+
+    python3 -m venv venv
+
 <br>
-2 - Activate the virtual environment at /core/venv/bin. Command: source activate.
+2 - Activate the virtual environment at /core/venv/bin whit the command: 
+
+    source activate
+
 <br>
-3 - Install pip requirements.txt at /core/core. Command: pip install -r requirements.txt.
+3 - Install pip requirements.txt at /core/core with the command: 
+
+    pip install -r requirements.txt
+
 <br>
-4 - Generate a secret_key for django. Command: python3 -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
+4 - Generate a secret_key for django with the command: 
+
+    python3 -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
+
 <br>
-5 - Create a file named ticket.py inside core project. Add a variable named ticket and add the secret key as the following: ticket = 'your secret_key must be placed here'.
+5 - Put the django secret key on settings.py or in a .env file: 
+
+    SECRET_KEY = 'your secret_key must be placed here'
+
 <br>
-6 - Run commands: python3 manage.py makemigrations followed by python3 manage.py migrate to create the sqlite database.
+6 - Run commands to create the sqlite database and migrate: 
+
+    python3 manage.py makemigrations
+    
+    python3 manage.py migrate
+
 <br>
-7 - Create a superuser for django admin. Command: python3 manage.py createsuperuser
+7 - Create a superuser for django admin with the command: 
+
+    python3 manage.py createsuperuser
+
 <br>
-8 - Run the application. Command: python3 manage.py runserver
+8 - Run the application: 
+
+    python3 manage.py runserver
+    
 <br>
 9 - Using the web browser, type http://127.0.0.1:8000/ or http://localhost:8000/ to see API Root.
 <p>
